@@ -4,8 +4,8 @@ import {
 } from '@app/types/types';
 import axios, { AxiosRequestConfig } from "axios";
 
-// const tmdb = 'https://api.themoviedb.org/3';
-const tmdb = 'https://adultempire.netlify.app';
+const tmdb = 'https://api.themoviedb.org/3';
+// const tmdb = 'https://adultempire.netlify.app';
 const tmdbKey = import.meta.env.VITE_TMDB_KEY;
 
 const axiosClient = axios.create({ baseURL: tmdb });
